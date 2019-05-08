@@ -10,8 +10,8 @@ def carregar_acesso():
 
     next(leitor)
     for home,como_funciona,contato,comprou in leitor:
-        dados = [int(home),int(como_funciona),int(contato)]
+        dados = [int(home), int(como_funciona), int(contato)]
         x.append(dados)
-        y.append([int(comprou)])
+        y.append(int(comprou))
 
     return x, y
