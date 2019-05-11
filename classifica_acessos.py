@@ -4,6 +4,7 @@ from sklearn.naive_bayes import MultinomialNB
 
 x, y = carregar_acesso()
 
+
 treino_dados = x[:90]
 treino_marcacoes = y[:90]
 
